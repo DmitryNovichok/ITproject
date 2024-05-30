@@ -1,0 +1,132 @@
+@font-face {
+    font-family: 'Play';
+    src: url('Diplom/play/playregular.woff2') format('woff2'), url('Diplom/play/playregular.woff') format('woff'), url('Diplom/play/playregular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Play';
+    src:url('Diplom/play/playbold.woff2') format('woff2'), url('Diplom/play/playbold.woff') format('woff'), url('Diplom/play/playbold.woff') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+body {
+
+    margin: 0;
+    padding: 0;
+}
+.text_logo{
+    transform: translate(-45px,0);
+}
+header {
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    height: 65px;
+}
+
+.logo1{
+    scale: 30%;
+}
+.malevin{
+    color: #000000;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    font-family: 'Play', sans-serif;
+     transform: translate(-50px,0);
+
+}
+
+
+.nav {
+    border: 1px solid rgba(0, 0, 0, 0.16);
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-family: 'Play', serif;
+    height: 60px;
+
+
+}
+
+.nav ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+
+}
+
+.nav li {
+
+    color: rgba(0, 0, 0, 0.1);
+    padding: 20px 17px;
+    font-size: 17px;
+    transform: translate(-25px,0);
+    width: 150px;
+
+
+}
+.nav li:hover {
+    background-color: rgba(128, 128, 128, 0.22);
+    color: rgba(0, 0, 0, 0);
+
+
+
+}
+.nav li.active {
+    background-color: rgba(0, 0, 205, 0);
+    color: rgba(0, 0, 0, 0.1);
+    font-weight: bold;
+    transform: translate(-10px,0);
+
+
+
+}
+.nav a {
+    text-decoration: none;
+    color: #000000;
+}
+.nav1{
+     transform: translate(-250px,0);
+}
+
+.footer{
+    background-color: black;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer1{
+    color: white;
+    font-size: 1.5em;
+    height: 1.5em;
+    transform: translate(900px,-15px);
+
+}
+
+.footer {
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    flex-wrap: wrap;
+    transform: translate(0px,500px);
+
+}
+
+* {box-sizing:border-box}
+
+
+
+
+
+
+
+
+
+
